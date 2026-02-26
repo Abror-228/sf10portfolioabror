@@ -1,0 +1,30 @@
+.project {
+    padding-block: 150px;
+}
+
+.project-list { 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 80px;
+}
+
+.project-item {
+    width: max-content;
+    border: 2px solid #9900ffd6;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.project-img {
+    border-radius: 15px;
+    width: 500px;
+}
+
+.project-big-title {
+    text-align: center;
+    margin-block: 0 100px;
+    font-size: 55px;
+    color: darkcyan;
+}

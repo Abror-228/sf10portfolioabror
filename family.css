@@ -1,0 +1,40 @@
+.family {
+}
+
+.family-wrapper {
+    padding-block: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.family-img {
+    border-radius: 30px;
+    transition: 0.5s ease-in-out;
+}
+
+.family-img:hover {
+    transform: scale(1.2);
+}
+
+.family-text-wrapper {
+    width: 500px;
+}
+
+.family-title {
+  font-size: 55px;
+}
+
+.family-desc {
+  font-size: 30px;
+}
+
+.family-link {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background-color: aqua;
+  width: max-content;
+  padding: 10px 25px;
+  border-radius: 15px;
+}
